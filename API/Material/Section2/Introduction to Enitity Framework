@@ -1,0 +1,18 @@
+EntityFrameWork
+    Object Relational Mapper(ORM)
+    Translates our code into SQL commands that update our tables in the database
+SQLite 
+    means we don't need to install a databse server and sql, like just uses a file to store our database.
+Entity Framework Features
+    Querying
+    Change Tracking
+    Saving
+    Concurrency
+    Transactions
+    Caching
+    Built-in conventions
+    Configurations
+    Migrations
+
+Microsoft has provided a Framework called Entity Framework to automate all these database related activites for our application.
+
