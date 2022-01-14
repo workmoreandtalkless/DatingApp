@@ -12,6 +12,7 @@ namespace API.Entities
         //public this property can be get offset from any other class in our application and same goes for the class itself.
         //protected , which means this property can be accessed from either this class or any classes that inherit from this class.
         //private access modifier, which means that this property is only accessible from inside this class itself.
-    
+        public byte[] PasswordHash{get;set;}
+        public byte[] PasswordSalt { get; set; }
     }
 }
